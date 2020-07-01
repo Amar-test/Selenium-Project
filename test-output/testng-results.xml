@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="229589" started-at="2020-06-13T15:18:25Z" finished-at="2020-06-13T15:22:14Z">
+  <suite name="Default suite" duration-ms="332759" started-at="2020-07-01T18:03:18Z" finished-at="2020-07-01T18:08:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="229589" started-at="2020-06-13T15:18:25Z" finished-at="2020-06-13T15:22:14Z">
-      <class name="Module1_TestCases.LoginTestcase">
-        <test-method status="PASS" signature="login()[pri:0, instance:Module1_TestCases.LoginTestcase@198378d]" name="login" is-config="true" duration-ms="195425" started-at="2020-06-13T15:18:25Z" finished-at="2020-06-13T15:21:40Z">
+    <test name="Default test" duration-ms="332759" started-at="2020-07-01T18:03:18Z" finished-at="2020-07-01T18:08:51Z">
+      <class name="topicRelated.WindowsHandling">
+        <test-method status="PASS" signature="login()[pri:0, instance:topicRelated.WindowsHandling@198378d]" name="login" is-config="true" duration-ms="94482" started-at="2020-07-01T18:03:18Z" finished-at="2020-07-01T18:04:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="verifytile()[pri:0, instance:Module1_TestCases.LoginTestcase@198378d]" name="verifytile" duration-ms="27472" started-at="2020-06-13T15:21:40Z" finished-at="2020-06-13T15:22:08Z">
+        <test-method status="PASS" signature="CaptureTitle()[pri:0, instance:topicRelated.WindowsHandling@198378d]" name="CaptureTitle" duration-ms="236408" started-at="2020-07-01T18:04:52Z" finished-at="2020-07-01T18:08:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifytile -->
-      </class> <!-- Module1_TestCases.LoginTestcase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- CaptureTitle -->
+      </class> <!-- topicRelated.WindowsHandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
