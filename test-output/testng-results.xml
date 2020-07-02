@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="332759" started-at="2020-07-01T18:03:18Z" finished-at="2020-07-01T18:08:51Z">
+  <suite name="Suite" duration-ms="226186" started-at="2020-07-02T18:19:47Z" finished-at="2020-07-02T18:23:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="332759" started-at="2020-07-01T18:03:18Z" finished-at="2020-07-01T18:08:51Z">
-      <class name="topicRelated.WindowsHandling">
-        <test-method status="PASS" signature="login()[pri:0, instance:topicRelated.WindowsHandling@198378d]" name="login" is-config="true" duration-ms="94482" started-at="2020-07-01T18:03:18Z" finished-at="2020-07-01T18:04:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="CaptureTitle()[pri:0, instance:topicRelated.WindowsHandling@198378d]" name="CaptureTitle" duration-ms="236408" started-at="2020-07-01T18:04:52Z" finished-at="2020-07-01T18:08:49Z">
+    <test name="Test" duration-ms="226186" started-at="2020-07-02T18:19:47Z" finished-at="2020-07-02T18:23:33Z">
+      <class name="Module1_TestCases.WindowsHandling">
+        <test-method status="PASS" signature="CaptureTitle()[pri:0, instance:Module1_TestCases.WindowsHandling@15530b9]" name="CaptureTitle" duration-ms="135848" started-at="2020-07-02T18:21:12Z" finished-at="2020-07-02T18:23:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CaptureTitle -->
-      </class> <!-- topicRelated.WindowsHandling -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="CaptureParentWindowTitle()[pri:2, instance:Module1_TestCases.WindowsHandling@15530b9]" name="CaptureParentWindowTitle" duration-ms="5456" started-at="2020-07-02T18:23:28Z" finished-at="2020-07-02T18:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureParentWindowTitle -->
+      </class> <!-- Module1_TestCases.WindowsHandling -->
+      <class name="Module1_TestCases.LoginTestcase">
+        <test-method status="PASS" signature="login()[pri:0, instance:Module1_TestCases.LoginTestcase@1057a39]" name="login" is-config="true" duration-ms="64780" started-at="2020-07-02T18:19:47Z" finished-at="2020-07-02T18:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Module1_TestCases.WindowsHandling@15530b9]" name="login" is-config="true" duration-ms="19828" started-at="2020-07-02T18:20:52Z" finished-at="2020-07-02T18:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifytile()[pri:0, instance:Module1_TestCases.LoginTestcase@1057a39]" name="verifytile" duration-ms="15171" started-at="2020-07-02T18:21:12Z" finished-at="2020-07-02T18:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytile -->
+      </class> <!-- Module1_TestCases.LoginTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
